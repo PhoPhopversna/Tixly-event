@@ -1,6 +1,6 @@
-package com.tixly.event_service.Service.impl;
+package com.tixly.event_service.service.impl;
 
-import com.tixly.event_service.Service.TicketService;
+import com.tixly.event_service.service.TicketService;
 import com.tixly.event_service.config.KafkaConfigProps;
 import org.springframework.beans.factory.annotation.Autowired;
 

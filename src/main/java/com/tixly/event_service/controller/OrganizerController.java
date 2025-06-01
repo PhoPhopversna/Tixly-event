@@ -1,7 +1,7 @@
 package com.tixly.event_service.controller;
 
-import com.tixly.event_service.Dto.OrganizerDto;
-import com.tixly.event_service.Service.OrganizerService;
+import com.tixly.event_service.dto.OrganizerDto;
+import com.tixly.event_service.service.OrganizerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

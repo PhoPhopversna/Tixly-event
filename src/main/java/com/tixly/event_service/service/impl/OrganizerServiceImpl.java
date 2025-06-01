@@ -1,8 +1,8 @@
-package com.tixly.event_service.Service.impl;
+package com.tixly.event_service.service.impl;
 
-import com.tixly.event_service.Dto.OrganizerDto;
-import com.tixly.event_service.Model.Organizer;
-import com.tixly.event_service.Service.OrganizerService;
+import com.tixly.event_service.dto.OrganizerDto;
+import com.tixly.event_service.entity.Organizer;
+import com.tixly.event_service.service.OrganizerService;
 import com.tixly.event_service.exception.GeneralException;
 import com.tixly.event_service.exception.ResourceNotFoundException;
 import com.tixly.event_service.repository.OrganizerRepository;
@@ -11,7 +11,6 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.security.GeneralSecurityException;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;

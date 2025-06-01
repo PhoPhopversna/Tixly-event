@@ -1,11 +1,11 @@
-package com.tixly.event_service.Service.impl;
+package com.tixly.event_service.service.impl;
 
-import com.tixly.event_service.Dto.EventRequestDto;
-import com.tixly.event_service.Dto.EventResponseDto;
-import com.tixly.event_service.Model.Event;
-import com.tixly.event_service.Model.Image;
-import com.tixly.event_service.Model.Organizer;
-import com.tixly.event_service.Service.EventService;
+import com.tixly.event_service.dto.EventRequestDto;
+import com.tixly.event_service.dto.EventResponseDto;
+import com.tixly.event_service.entity.Event;
+import com.tixly.event_service.entity.Image;
+import com.tixly.event_service.entity.Organizer;
+import com.tixly.event_service.service.EventService;
 import com.tixly.event_service.exception.ApiException;
 import com.tixly.event_service.exception.GeneralException;
 import com.tixly.event_service.exception.ResourceNotFoundException;

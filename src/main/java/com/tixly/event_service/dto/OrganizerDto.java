@@ -1,10 +1,7 @@
-package com.tixly.event_service.Dto;
+package com.tixly.event_service.dto;
 
-import com.tixly.event_service.Model.Event;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
 
 @Getter
 @Setter

@@ -1,8 +1,8 @@
 package com.tixly.event_service.controller;
 
-import com.tixly.event_service.Dto.EventRequestDto;
-import com.tixly.event_service.Dto.EventResponseDto;
-import com.tixly.event_service.Service.EventService;
+import com.tixly.event_service.dto.EventRequestDto;
+import com.tixly.event_service.dto.EventResponseDto;
+import com.tixly.event_service.service.EventService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

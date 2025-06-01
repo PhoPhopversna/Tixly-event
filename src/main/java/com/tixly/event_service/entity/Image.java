@@ -1,4 +1,4 @@
-package com.tixly.event_service.Model;
+package com.tixly.event_service.entity;
 
 import jakarta.persistence.*;
 import lombok.Builder;

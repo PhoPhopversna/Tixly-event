@@ -1,6 +1,6 @@
-package com.tixly.event_service.Service;
+package com.tixly.event_service.service;
 
-import com.tixly.event_service.Dto.OrganizerDto;
+import com.tixly.event_service.dto.OrganizerDto;
 
 import java.util.List;
 

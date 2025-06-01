@@ -1,8 +1,7 @@
-package com.tixly.event_service.Service;
+package com.tixly.event_service.service;
 
-import com.tixly.event_service.Dto.EventRequestDto;
-import com.tixly.event_service.Dto.EventResponseDto;
-import com.tixly.event_service.Model.Event;
+import com.tixly.event_service.dto.EventRequestDto;
+import com.tixly.event_service.dto.EventResponseDto;
 
 import java.util.List;
 

@@ -1,14 +1,16 @@
-package com.tixly.event_service.Dto;
+package com.tixly.event_service.dto;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Getter
 @Setter
-public class EventResponseDto {
+public class EventRequestDto {
+    private List<MultipartFile> files;
     private Integer id;
     private String title;
     private String description;
@@ -18,6 +20,5 @@ public class EventResponseDto {
     private String location;
     private Boolean published;
     private LocalDateTime createdAt;
-    private String organizerName;
-    private List<String> imageName;
+    private Integer organizerId;
 }
